@@ -1,8 +1,12 @@
 {
   "name": "djsext",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extend discord.js library with more specific events",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoconutDev13/Discord-Extension.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
