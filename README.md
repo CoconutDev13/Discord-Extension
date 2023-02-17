@@ -1,4 +1,4 @@
-# Discord-Extension
+# Discord.js - Extension
 An extension for discord.js library that adds some specific events over discord.js defaults
 
 To begin with, you can install library using npm like that:
