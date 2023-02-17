@@ -6,7 +6,7 @@ module.exports.ExEvents = {
     ModalSubmitInteraction: 'ModalSubmitInteraction',
 }
 
-module.exports.ImproveDiscordLibrary(client) {
+module.exports.ImproveDiscordLibrary = function (client) {
     client.on(Events.InteractionCreate, interaction => {
         if (interaction.isButton()) {
             client.emit(events.ButtonInteractionCreate, interaction)
